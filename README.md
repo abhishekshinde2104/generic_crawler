@@ -99,13 +99,13 @@ Valid `--browser` options: `firefox`, `chrome`, `brave`, `edge`
 
 After each run, a folder is created in `measurements/`:
 
-measurements/YYYY-MM-DD_HH-MM-SS/
+```text
 ├── session.csv          # Stores captured web request data
 ├── summary.txt          # Run summary
 ├── logfile.log          # Runtime logs
 ├── browser_profile/     # Browser data profile (optional)
 └── website_screenshots/ # Screenshots for each website & in case of chrome also stores chrome profile on linux machines.
-
+```
 ---
 
 ## 🔐 Certificates
